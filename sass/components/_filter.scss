@@ -4,7 +4,7 @@
         margin-bottom: 50px;
         justify-content: center;
     }
-}
+
 &__btn, &-total__btn {
     background: var(--background-team-color);
     font-family: inherit;
@@ -30,17 +30,14 @@
 }
 }
 
-
-.filter__btn {
+&__btn {
     padding: 6px 22px 6px 22px;
-
 }
 
-
-
-.filter__item {
+&__item {
     margin-right: 8px;
     &:last-child {
         margin-right: 0px;
     }
+}
 }
